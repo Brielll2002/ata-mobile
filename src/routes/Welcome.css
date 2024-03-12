@@ -1,0 +1,55 @@
+.choice{
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.aluno{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #2196F3;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+}
+.professor{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #2196F3;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+}
+
+@media(max-width: 840px){
+
+    .aluno{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        padding: 20px;
+        text-decoration: none;
+        background-color: #2196F3;
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+    }
+    .professor{
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        padding: 20px;
+        text-decoration: none;
+        background-color: #2196F3;
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+}
